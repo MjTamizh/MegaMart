@@ -1,0 +1,96 @@
+/* ========== HEADER ========== */
+header {
+    border-bottom: 1px solid red;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+/* Logo Section */
+.megaMart_logo {
+    width: 20%;
+}
+
+.megaMart_logo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Menu Section */
+.megaMart_headerMenu {
+    width: 60%;
+    text-align: center;
+}
+
+.megaMart_headerMenu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.megaMart_headerMenu ul li {
+    display: inline;
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+.megaMart_headerMenu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+/* Icons Section */
+.megaMart_headerIcons {
+    width: 25%;
+    text-align: right;
+}
+
+.megaMart_headerIcons img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.table-title h1{
+     text-align: center;
+    color: yellowgreen;
+    padding: 20px;
+    background-color: #f6f7f9;
+}
+
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: "Noto Sans", sans-serif;
+}
+
+th, td {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+    background-color: yellowgreen;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f9f0;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    font-size: 14px;
+}
