@@ -11,6 +11,11 @@ header {
 body {
     font-family: "Noto Sans", sans-serif;
 }
+a, li , ul , ol {
+    text-decoration: none;
+    list-style-type: none;
+      list-style: none;
+}
 
 /* Logo Section */
 .megaMart_logo {
@@ -68,7 +73,6 @@ table {
   width: 90%;
   margin: 30px auto;
   border-collapse: collapse;
-  font-family: "Noto Sans", sans-serif;
 }
 
 th, td {
@@ -84,6 +88,33 @@ th {
 
 tbody tr:nth-child(even) {
   background-color: #f0f9f0;
+}
+
+
+.pagination_section ul {
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+  padding: 0;
+
+}
+
+.pagination_section li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 3px;
+  border: 2px solid yellowgreen;
+  border-radius: 4px;
+}
+
+.pagination_section a {
+  color: inherit;
+}
+
+.pagination_section li:hover,
+.pagination_section li a:hover {
+  background-color: yellowgreen;
+  color: white;
 }
 
 /* ========== FOOTER ========== */

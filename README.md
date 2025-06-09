@@ -30,6 +30,9 @@ Google Fonts – Noto Sans
 
 🖼️ Images from Pixabay for blogs and visual content
 
+#### for avatars
+<!-- https://getavataaars.com/ -->
+
 📸 Screenshot
 
 ![alt text](image.png)
