@@ -1,0 +1,64 @@
+        /* .main_div {
+            position: relative;
+                height: 500px;
+            width: 500px;
+            border: 2px solid rebeccapurple;
+        }
+        .main_div img{ 
+                position: relative;
+            height: 500px;
+            width: 500px;
+            border: 2px solid rebeccapurple;
+            
+        }
+
+
+        .child_div{
+            position: absolute;
+            right: -10%;
+            bottom: -10%;
+        }
+
+        */
+
+        /* .main_box{
+                        position: relative;
+            height: 500px;
+            width: 500px;
+            border: 2px solid rebeccapurple;
+            margin: 10px auto;
+        }
+        .main_box img{
+            height: 200px;
+            width: 200px;
+
+            border: 2px solid red;
+        }
+      .main_box  p{
+            position: absolute;
+            right: 0%;
+        } */
+
+        .head{
+            margin-top: 5%;
+            height: 300px;
+            width: 300px;
+            background-color: black;
+            position: relative;
+
+            }
+            .child{
+                height: 100px;
+                width: 100px;
+                background-color: red;
+                border-radius: 50%;
+                position: absolute;
+                right: -10%;
+                top: -10%;
+
+            }   
+
+        .sub_child{
+            color: white;
+            text-align: center;
+        }
