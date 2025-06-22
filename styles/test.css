@@ -37,10 +37,10 @@
       .main_box  p{
             position: absolute;
             right: 0%;
-        } */
+        } 
 
         .head{
-            margin-top: 5%;
+            margin: 5%;
             height: 300px;
             width: 300px;
             background-color: black;
@@ -57,8 +57,88 @@
                 top: -10%;
 
             }   
+              .child2{
+                height: 100px;
+                width: 100px;
+                background-color: red;
+                border-radius: 50%;
+                position: absolute;
+                left: -10%;
+                top: -10%;
+
+            }  
+              .child3{
+                height: 100px;
+                width: 100px;
+                background-color: red;
+                border-radius: 50%;
+                position: absolute;
+                left: -10%;
+                bottom: -10%;
+
+            }  
+              .child4{
+                height: 100px;
+                width: 100px;
+                background-color: red;
+                border-radius: 50%;
+                position: absolute;
+                right: -10%;
+                bottom: -10%;
+
+            }  
 
         .sub_child{
             color: white;
             text-align: center;
         }
+            */
+
+          * {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+          }
+          body{
+            display: flex;
+            justify-content: space-evenly;
+          }
+
+header {
+    position: fixed;
+    left: 0px;
+
+  border: 2px solid rebeccapurple;
+  width: 15%; 
+}
+
+nav {
+  height: 800px;
+    
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;             
+}
+
+li {
+  text-align: center;
+  margin-top: 5px;
+}
+
+a {
+  display: block;
+  padding: 8px 12px;
+  border: 2px solid rebeccapurple;
+  text-decoration: none;
+  color: black;
+}
+main{
+    width: 60%;
+}
+p{
+    border: 2px solid rebeccapurple;
+}

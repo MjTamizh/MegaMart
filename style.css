@@ -14,6 +14,7 @@
     body {
         font-family: "Noto Sans", sans-serif;
         padding-bottom: 20px;
+        overflow-x: hidden;
     }
     a , li , ul ,ol{
         text-decoration: none;
@@ -128,10 +129,9 @@
   border: 1px solid red;
   font-size: 14px;
   padding: 10px;
-  position: fixed;
   width: 97.5%;
   bottom: 0px;
   background: white;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 

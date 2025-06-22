@@ -1,60 +1,72 @@
-/* ========== HEADER ========== */
-header {
-  border-bottom: 1px solid red;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+    /* ========== HEADER ========== */
+    header {
+        border-bottom: 1px solid red;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0px;
+         width: 96.5%;
+          background: white; 
+    }
 
-body {
-  font-family: "Noto Sans", sans-serif;
-}
+    body {
+        font-family: "Noto Sans", sans-serif;
+        padding-bottom: 20px;
+        overflow-x: hidden;
+    }
+    a , li , ul ,ol{
+        text-decoration: none;
+        list-style: none;
+    }
+    main{
+        overflow: hidden;
+    }
+    /* Logo Section */
+    .megaMart_logo {
+        width: 20%;
+    }
 
-/* Logo Section */
-.megaMart_logo {
-  width: 20%;
-}
+    .megaMart_logo img {
+        width: 40px;
+        height: 40px;
+    }
 
-.megaMart_logo img {
-  width: 50px;
-  height: 50px;
-}
+    /* Menu Section */
+    .megaMart_headerMenu {
+        width: 55%;
+        text-align: center;
+    }
 
-/* Menu Section */
-.megaMart_headerMenu {
-  width: 60%;
-  text-align: center;
-}
+    .megaMart_headerMenu ul {
+        padding: 0;
+        margin: 0;
+    }
 
-.megaMart_headerMenu ul {
-  padding: 0;
-  margin: 0;
-}
+    .megaMart_headerMenu ul li {
+        display: inline;
+        margin: 0 10px;
+        list-style-type: none;
+    }
 
-.megaMart_headerMenu ul li {
-  display: inline;
-  margin: 0 10px;
-  list-style-type: none;
-}
+    .megaMart_headerMenu ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+    }
 
-.megaMart_headerMenu ul li a {
-  text-decoration: none;
-  color: black;
-  padding: 5px;
-}
+    /* Icons Section */
+    .megaMart_headerIcons {
+        width: 20%;
 
-/* Icons Section */
-.megaMart_headerIcons {
-  width: 25%;
-  text-align: right;
-}
+    }
 
-.megaMart_headerIcons img {
-  width: 50px;
-  height: 50px;
-  margin-left: 10px;
-}
+    .megaMart_headerIcons img {
+       width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
 
 
 .product-intro {
